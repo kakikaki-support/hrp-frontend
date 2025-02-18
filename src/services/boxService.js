@@ -1,4 +1,4 @@
-const API_URL = "https://backend-omega-eight-39.vercel.app/api/box-selection";
+const API_URL = "https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/box-selection";
 
 export const fetchBoxes = async (token) => {
   try {
