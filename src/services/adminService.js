@@ -1,9 +1,9 @@
-const API_URL = "https://backend-omega-eight-39.vercel.app/api/user-management";
+const API_URL = "https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/user-management";
 
 export const getAllUsers = async (token) => {
   try {
     const response = await fetch(
-      `https://backend-omega-eight-39.vercel.app/api/user-management/admin/get-all-users`,
+      `https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/user-management/admin/get-all-users`,
       {
         credentials: "include",
         headers: {
@@ -103,7 +103,7 @@ export const searchUsers = async (token, username) => {
 export const resetAllBoxes = async (token) => {
   try {
     const response = await fetch(
-      `https://backend-omega-eight-39.vercel.app/api/box-selection/set-all-boxes-to-unselected`,
+      `https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/box-selection/set-all-boxes-to-unselected`,
       {
         method: "PUT",
         credentials: "include",
@@ -124,7 +124,7 @@ export const resetAllBoxes = async (token) => {
 export const setBoxColor = async (token, color) => {
   try {
     const response = await fetch(
-      `https://backend-omega-eight-39.vercel.app/api/box-selection/admin/set-box-color`,
+      `https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/box-selection/admin/set-box-color`,
       {
         method: "PUT",
         headers: {
@@ -145,7 +145,7 @@ export const setBoxColor = async (token, color) => {
 export const getBoxColor = async (token) => {
   try {
     const response = await fetch(
-      `https://backend-omega-eight-39.vercel.app/api/box-selection/box-color`,
+      `https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/box-selection/box-color`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -163,7 +163,7 @@ export const getBoxColor = async (token) => {
 export const getLoginText = async (token) => {
   try {
     const response = await fetch(
-      `https://backend-omega-eight-39.vercel.app/api/box-selection/login-text`,
+      `https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/box-selection/login-text`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -181,7 +181,7 @@ export const getLoginText = async (token) => {
 export const updateLoginText = async (token, settings) => {
   try {
     const response = await fetch(
-      `https://backend-omega-eight-39.vercel.app/api/box-selection/admin/login-text`,
+      `https://hrp-backend-fain8agpa-kaki-kaki-hrp.vercel.app/api/box-selection/admin/login-text`,
       {
         method: "PUT",
         headers: {
