@@ -1,4 +1,4 @@
-const API_URL = "https://hrp-backend-pi.vercel.app/api/user-management";
+const API_URL = "https://hrp-backend-kaki-kaki-hrp.vercel.app/api/user-management";
 
 export const fetchUserData = async (token, userId) => {
   try {
