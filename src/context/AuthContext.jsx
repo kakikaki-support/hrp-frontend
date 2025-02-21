@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (username, password) => {
     try {
       const response = await fetch(
-        "https://hrp-backend-pi.vercel.app/api/auth/user/login",
+        "https://hrp-backend-kaki-kaki-hrp.vercel.app/api/auth/user/login",
         {
           method: "POST",
           credentials: "include",
@@ -88,7 +88,7 @@ export const AuthProvider = ({ children }) => {
   const adminLogin = async (username, password) => {
     try {
       const response = await fetch(
-        "https://hrp-backend-pi.vercel.app/api/auth/admin/login",
+        "https://hrp-backend-kaki-kaki-hrp.vercel.app/api/auth/admin/login",
         {
           method: "POST",
           credentials: "include",
